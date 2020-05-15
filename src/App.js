@@ -1,24 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Header from './compoenents/header/header'
+import DateSelector from './compoenents/selector/dateSelector'
+import TimeTable from './compoenents/time table/week'
+import TimeLine from './compoenents/progress/timeline'
+import './tailwind^2.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div class="md:mx-64 sm:mx-0 mt-20 sm:w-full md:w-auto">
+      <Header/>
+      <TimeLine/>
+      <DateSelector/>
+      <TimeTable/>
+      <div></div>
     </div>
   );
 }
