@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import useInterval from "../../hooks/useInterval";
+import useInterval from "../../Hooks/useInterval";
 import Humanize from "humanize-duration";
 
 export default function Header() { 
