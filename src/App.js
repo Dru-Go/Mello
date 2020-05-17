@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
-import Header from './compoenents/header/header'
-import DateSelector from './compoenents/selector/dateSelector'
-import TimeTable from './compoenents/time table/week'
-import TimeLine from './compoenents/progress/timeline'
+import Header from './Compoenents/header/header'
+import DateSelector from './Compoenents/selector/dateSelector'
+import TimeTable from './Compoenents/time table/week'
+import TimeLine from './Compoenents/progress/timeline'
 import './tailwind^2.css';
 
 function App() {
